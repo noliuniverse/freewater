@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8549f1c1.css",
+    "main.js": "/static/js/main.42c4d0a7.js",
+    "static/media/Fifty Fifty - Log in.mp3": "/static/media/Fifty Fifty - Log in.425962be9449ad6a4bb3.mp3",
+    "static/media/Fifty Fifty - Tell Me.mp3": "/static/media/Fifty Fifty - Tell Me.bd4e2b5c4f920b780ea0.mp3",
+    "static/media/Fifty Fifty - Higher.mp3": "/static/media/Fifty Fifty - Higher.7e7d8076966c7fd1ccc5.mp3",
+    "static/media/Fifty Fifty - Lovin-' Me.mp3": "/static/media/Fifty Fifty - Lovin-' Me.a461589b883309b4b5b4.mp3",
+    "static/media/YoYo.mp3": "/static/media/YoYo.e2442d47b0c4fd94d8c5.mp3",
+    "static/media/Fifty Fifty - Cupid (Twin Ver.).mp3": "/static/media/Fifty Fifty - Cupid (Twin Ver.).c54a94807457c850fec5.mp3",
+    "static/media/Fifty Fifty - Cupid.mp3": "/static/media/Fifty Fifty - Cupid.e151bfb755466d650eea.mp3",
+    "static/media/Magnetic.mp3": "/static/media/Magnetic.c8ecec77a426619222a0.mp3",
+    "static/media/NewJeans - Cookie.mp3": "/static/media/NewJeans - Cookie.dfa6cf991c783c99afcf.mp3",
+    "static/media/Midnight Fiction.mp3": "/static/media/Midnight Fiction.aaa29f2b762f519d0631.mp3",
+    "static/media/NewJeans - OMG.mp3": "/static/media/NewJeans - OMG.0653119018460bea48ba.mp3",
+    "static/media/Lucky Girl Syndrome.mp3": "/static/media/Lucky Girl Syndrome.303a21ccdb123a2c1977.mp3",
+    "static/media/NewJeans - Ditto.mp3": "/static/media/NewJeans - Ditto.6ebf76ee947bd3d2ae55.mp3",
+    "static/media/NewJeans - Attention.mp3": "/static/media/NewJeans - Attention.8bb8690daa0a529cfefb.mp3",
+    "static/media/NewJeans - Hype Boy.mp3": "/static/media/NewJeans - Hype Boy.52514cc771ca6af7c13c.mp3",
+    "static/media/NewJeans - Hurt.mp3": "/static/media/NewJeans - Hurt.62ef210e63b2835b7f27.mp3",
+    "static/media/NewJeans - Super Shy.mp3": "/static/media/NewJeans - Super Shy.350a9332b104906af63f.mp3",
+    "static/media/NewJeans - ETA.mp3": "/static/media/NewJeans - ETA.58295f00de6ac8c95ea2.mp3",
+    "static/media/My World.mp3": "/static/media/My World.036fb4956f489566fbba.mp3",
+    "static/media/NewJeans - Cool With You.mp3": "/static/media/NewJeans - Cool With You.37eb6cd58ea6785c8a55.mp3",
+    "static/media/NewJeans - ASAP.mp3": "/static/media/NewJeans - ASAP.89b819c5838de8025955.mp3",
+    "static/media/NewJeans - New Jeans.mp3": "/static/media/NewJeans - New Jeans.5bf3ecc828f424151b31.mp3",
+    "static/media/NewJeans - Get Up.mp3": "/static/media/NewJeans - Get Up.c5fb4447900ff18e1153.mp3",
+    "index.html": "/index.html",
+    "main.8549f1c1.css.map": "/static/css/main.8549f1c1.css.map",
+    "main.42c4d0a7.js.map": "/static/js/main.42c4d0a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8549f1c1.css",
+    "static/js/main.42c4d0a7.js"
+  ]
+}
