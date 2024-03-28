@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.album {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.albumcover {
+  width: 50%;
+}
+.songlist {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.songOnList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: none;
+  border: none;
+  transition: 0.2s;
+  padding:5px;
+  cursor: pointer;
+}
+.lyricsButton {
+  width: 20%;
+  background: rgb(211, 211, 211);
+  border: 0px solid;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.2s;
+  padding:5px;
+  cursor: pointer;
+}
+.lyricsButton:hover {
+  background: rgb(146, 146, 146);
+}
+.songOnList:hover {
+  background: rgb(199, 199, 199);
+}
