@@ -32,6 +32,13 @@ import NEW_NE from "./music/ARTIST_NEWJEANS/newjeans3/NewJeans - New Jeans.mp3"
 import ASA_NE from "./music/ARTIST_NEWJEANS/newjeans3/NewJeans - ASAP.mp3"
 import ETA_NE from "./music/ARTIST_NEWJEANS/newjeans3/NewJeans - ETA.mp3"
 
+import ILL_TX from "./music/ARTIST_TXT/txt31/I’ll See You There Tomorrow.mp3"
+import MIR_TX from "./music/ARTIST_TXT/txt31/Miracle.mp3"
+import QUA_TX from "./music/ARTIST_TXT/txt31/Quarter Life.mp3"
+import DASH_TX from "./music/ARTIST_TXT/txt31/- --- -- --- .-. .-. --- .--.mp3"
+import DEJR_TX from "./music/ARTIST_TXT/txt31/Deja Vu (Anemoia Remix).mp3"
+import THE_TX from "./music/ARTIST_TXT/txt31/The Killa (I Belong to You).mp3"
+import DEJ_TX from "./music/ARTIST_TXT/txt31/Deja Vu.mp3"
 
 
 import YO_IL from "./music/etc/YoYo.mp3"
@@ -210,7 +217,56 @@ export default function App() {
           uiid: "GE_1_NE_6",
           src: ETA_NE
           },
-          
+          {
+            name: "I’ll See You There Tomorrow",
+            artist: "TXT",
+            album: "minisode 3: TOMORROW (1)",
+            uiid: "MI_1_TX_1",
+            src: ILL_TX
+            },
+            {
+              name: "- --- -- --- .-. .-. --- .--",
+              artist: "TXT",
+              album: "minisode 3: TOMORROW (1)",
+              uiid: "MI_1_TX_2",
+              src: DASH_TX
+              },
+              {
+                name: "Deja Vu",
+                artist: "TXT",
+                album: "minisode 3: TOMORROW (1)",
+                uiid: "MI_1_TX_3",
+                src: DEJ_TX
+                },
+            {
+            name: "Miracle",
+            artist: "TXT",
+            album: "minisode 3: TOMORROW (1)",
+            uiid: "MI_1_TX_4",
+            src: MIR_TX
+            },
+            {
+            name: "The Killa (I Belong to You)",
+            artist: "TXT",
+            album: "minisode 3: TOMORROW (1)",
+            uiid: "MI_1_TX_5",
+            src: THE_TX
+            },
+            {
+              name: "Quarter Life",
+              artist: "TXT",
+              album: "minisode 3: TOMORROW (1)",
+              uiid: "MI_1_TX_6",
+              src: QUA_TX
+              },
+            {
+              name: "Deja Vu (Anemoia Remix)",
+              artist: "TXT",
+              album: "minisode 3: TOMORROW (1)",
+              uiid: "MI_1_TX_7",
+              src: DEJR_TX
+              },
+            
   
   
   ];
@@ -286,7 +342,7 @@ export default function App() {
       <div style={{position:"sticky", top:"10px"}}>
       <AudioPlayer
         // style={{ width: "300px" }}
-        style={{ borderRadius: "1rem", color:"purple"}}
+        style={{ borderRadius: "1rem", color:"#ff5d27"}}
         autoPlay
         // layout="horizontal"
         src={musicTracks[trackIndex].src}
@@ -294,7 +350,7 @@ export default function App() {
         showSkipControls={true}
         showJumpControls={true}
         header={`Now playing: ${musicTracks[trackIndex].name} by ${musicTracks[trackIndex].artist}\n`}
-        footer={`🍉 - latest release: illit's super real me`}
+        footer={`🍉 - latest release: txt's minisode 3: tomorrow`}
         onClickPrevious={handleClickPrevious}
         onClickNext={handleClickNext}
         onEnded={handleClickEnd}
@@ -365,7 +421,7 @@ export default function App() {
         </div>
         <h3>NewJeans</h3> 
         <div className="albums">
-          <div className="album" style={{'backgroundColor':"#6786db"}}>
+          <div className="album" style={{'backgroundColor':"#8eaaf7"}}>
             <img className="albumcover" src="https://i.imgur.com/S7BZDxC.jpeg"></img>
             <p>NEWJEANS
               <br></br>
@@ -399,6 +455,20 @@ export default function App() {
             </div>
           </div>
         </div>      
+        <h3>TXT</h3>
+        <div className="albums">
+          <div className="album" style={{'backgroundColor':"#ff7e1c"}}>
+            <img className="albumcover" src="https://i.imgur.com/LMopWGw.jpeg"></img>
+            <p>minisode 3: TOMORROW
+              <br></br>
+            <strong>TXT</strong></p>
+            
+            <div className="songlist">
+            {musicTracks.filter((el) => el.album.toLowerCase() == 'minisode 3: tomorrow (1)').map((item,index)=>{return <div key={index}> <button className="songOnList" onClick={()=> {handleClickNext(musicTracks.indexOf(item)); setalbumRN("minisode 3: tomorrow (1)");}}><span className="number">{index+1}</span>{item.name}</button></div>})}
+             
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
